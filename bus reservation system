@@ -1,0 +1,43 @@
+#include<iostream>
+#include<fstream>
+#include<iomanip>
+using namespace std;
+class bus
+{
+private:
+char busno[10];
+char name[10];
+char path[10];
+int time;
+public: 
+void showdata();
+void getdata();
+
+}
+void bus::showdata();
+{
+cout<<"enter bus no";
+cin>>busno;
+cout<<"enter name";
+cin>>name;
+cout<<"enter path";
+cin>>path;
+cout<<"enter time";
+}
+void bus::getdata()
+{
+cout<<"enter bus no"<<endl;
+
+cout<<"enter name"<<endl;
+
+cout<<"enter path"<<endl;
+
+cout<<"enter time"<<endl;
+
+}
+int main()
+{
+bus b;
+b.showdata();
+b.getdata();
+}
